@@ -1,7 +1,7 @@
 <template>
   <nav>
     <h1>
-      <text style="font-weight: 700; font-size: 84px;">CERTIFICADO</text><br> DE PARTICIPAÇÃO
+      <text style="font-weight: 700; font-size: 84px;">CERTIFICADO</text><br> DE CONCLUSÃO
     </h1>
     <div id="element"></div>
   </nav>
@@ -33,7 +33,7 @@ h1 {
   height: 20px;
   border-radius: 50%;
   background-color: var(--azul);
-  margin-left: -95px;
+  margin-left: -150px;
   margin-bottom: 10px;
 }
 </style>

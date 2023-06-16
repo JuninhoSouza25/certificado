@@ -2,8 +2,7 @@
   <section>
     <div>
       <h2>{{ jsonData.nome }}</h2>
-      <p>concluiu o curso online com carga horária de {{ jsonData.duracao }} horas.</p>
-      <p id="finalizacao">Finalizado na data de {{ jsonData.data }}.</p>
+      <p>concluiu o curso online com carga horária de {{ jsonData.duracao }} horas, finalizado na data de {{ jsonData.data }}.</p>
     </div>
     <div>
       <p>Curso</p>
@@ -56,11 +55,6 @@ h2 {
 
 p {
   font-size: 28px;
-}
-
-#finalizacao {
-  font-size: 22px;
-  font-weight: 200;
 }
 
 </style>
